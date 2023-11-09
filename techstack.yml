@@ -1,0 +1,65 @@
+repo_name: GamePad64/k-bucket
+report_id: f40d142899c4f4e8e9cacc8d193820f5
+repo_type: Public
+timestamp: '2023-11-09T15:18:09+00:00'
+requested_by: tristanls
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Tristan Slominski
+  last_updated_on: 2013-07-04 17:12:18.000000000 Z
+- name: buffer-equal
+  description: Return whether two buffers are equal
+  package_url: https://www.npmjs.com/buffer-equal
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18724/default_d60b6874d2b3ef9c114b898855dc8608d7e7a942.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Tristan Slominski
+  last_updated_on: 2014-06-09 11:47:06.000000000 Z
+- name: nodeunit
+  description: Easy unit testing for node.js and the browser
+  package_url: https://www.npmjs.com/nodeunit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16216/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source: package.json
+  last_updated_by: Tristan Slominski
+  last_updated_on: 2014-06-09 11:47:06.000000000 Z
